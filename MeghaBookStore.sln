@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeghaBookStore", "MeghaBookStore\MeghaBookStore.csproj", "{AD0C8E3B-B240-4809-85A6-FB25B6BAD3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeghaBooks.DataAccess", "MeghaBooks.DataAccess\MeghaBooks.DataAccess.csproj", "{73418886-0655-421D-85F2-23A3C61362CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeghaBooks.Models", "MeghaBooks.Models\MeghaBooks.Models.csproj", "{C8ABE180-4C5B-4C8E-860A-F0C68A460D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeghaBooks.Utility", "MeghaBooks.Utility\MeghaBooks.Utility.csproj", "{BB3F3E29-C135-4D0F-AC97-48370B22195B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{955E31B4-5B5A-43AD-BBDD-29376DD4745E}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD0C8E3B-B240-4809-85A6-FB25B6BAD3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0C8E3B-B240-4809-85A6-FB25B6BAD3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0C8E3B-B240-4809-85A6-FB25B6BAD3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0C8E3B-B240-4809-85A6-FB25B6BAD3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73418886-0655-421D-85F2-23A3C61362CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73418886-0655-421D-85F2-23A3C61362CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73418886-0655-421D-85F2-23A3C61362CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73418886-0655-421D-85F2-23A3C61362CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8ABE180-4C5B-4C8E-860A-F0C68A460D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8ABE180-4C5B-4C8E-860A-F0C68A460D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8ABE180-4C5B-4C8E-860A-F0C68A460D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8ABE180-4C5B-4C8E-860A-F0C68A460D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3F3E29-C135-4D0F-AC97-48370B22195B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3F3E29-C135-4D0F-AC97-48370B22195B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3F3E29-C135-4D0F-AC97-48370B22195B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3F3E29-C135-4D0F-AC97-48370B22195B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E9C03F0-51AC-4656-9BA8-CC9AB349704F}
+	EndGlobalSection
+EndGlobal
