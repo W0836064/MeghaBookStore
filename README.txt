@@ -82,3 +82,9 @@ To keep things updated, I'm pushing the code changes to the GitHub repository.
 Date:28-10-2023
 Time: 3:12pm
 Completed 
+
+Assignment Part 2
+
+Date:31-10-2023
+Time: 6:12pm
+
