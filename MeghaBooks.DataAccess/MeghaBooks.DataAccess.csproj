@@ -12,15 +12,10 @@
 
 	<ItemGroup>
 		<Folder Include="Data\" />
-		<Folder Include="Repository\IRepository\" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <ProjectReference Include="..\MeghaBooks.Models\MeghaBooks.Models.csproj" />
 	  <ProjectReference Include="..\MeghaBooks.Utility\MeghaBooks.Utility.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Repository\IRepository\" />
 	</ItemGroup>
 </Project>
