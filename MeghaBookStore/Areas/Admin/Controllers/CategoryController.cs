@@ -8,6 +8,7 @@ using MeghaBooks.Models;
 
 namespace MeghaBookStore.Areas.Admin.Controllers
 {
+   
     [Area("Admin")]
     public class CategoryController : Controller
     {
@@ -22,11 +23,27 @@ namespace MeghaBookStore.Areas.Admin.Controllers
         {
             return View();
         }
+        public IActionResult Upsert(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                if (category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+                    _unitOfWork.Save();
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
 
-        
-        
+            }
+            return View(category);
+        }
 
-         #region API CALLS
+        #region API CALLS
         [HttpGet]
 
         public IActionResult GetAll()
@@ -36,7 +53,18 @@ namespace MeghaBookStore.Areas.Admin.Controllers
             return Json(new { data = allObj });
 
         }
-
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = true, message = "Erroe while Deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete Successful" });
+        }
         #endregion
     }
 }

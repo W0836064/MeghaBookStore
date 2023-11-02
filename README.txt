@@ -87,4 +87,5 @@ Assignment Part 2
 
 Date:31-10-2023
 Time: 6:12pm
-
+Time: 6:51pm
+ going through the file and start Part2.1 Creating the DB . Modifying the database from appsettings.json and ue the NutPackage Manager Console for adding the migration (AddDefaultIdentityMigration).
