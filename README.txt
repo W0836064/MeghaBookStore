@@ -87,5 +87,49 @@ Assignment Part 2
 
 Date:31-10-2023
 Time: 6:12pm
+
+ Going through the file and start Part2.1 Creating the DB . Modifying the database from appsettings.json and ue the NutPackage Manager Console for adding the migration (AddDefaultIdentityMigration). And change the default project file into the DataAccess and run .
+ Adding the new migration (Read Me) with the same step.Now updating the database through PM console.
+ Adding the category class file into the .Models and modify the code with given. Now , its time to add migration (AddCategoryToDb) and adding the one statement in the application Dbcontext and updating the database again and push into the github.
+ Time:6:51pm
+
+ Date: 1-11-2023
+ Time: 5:06pm
+Now creating the Repository folder in .DataAccess inside creating one new folder IRepository . Creating the Irepository class file into the IRepository in that class adding the CRUD method and using statement .
+Creating the new class(Repository.cs) in Repository folder. Adding the using statement and implementing the code in error word ,code generate automatically. And modifying the code with given folder.
+Creating the CategoryRepository.cs  and ICategoryRepository.cs in Repository and IRepository folder.Modifying the code and ading the using statement . Need to add public interface in ICategory.cs same to apply implement coding .So as per i could run 
+because i create an error so i am trying ot solve and error is building .So , now again doing the same step to follow the 2.1 part. And now succesfully I run the code .Push into the GITHUB.
+Time: 5:55pm
+
+Date: 1-11-2023
+Time: 5:59pm
+Creating the interface ISP_Call.cs in IRepository folder.Installing the Dapper through IDisposable .Adding the new class SP_Call in Repository . Adding the using statement of ISP.Updating the SP using the implementation.
+Now, Creating the new interface IUnitOfWork.cs and UnitOfWork.cs in Repository and IRepository folder.Modifying the code.Registering into Start.up.Push into GitHub.
 Time: 6:51pm
- going through the file and start Part2.1 Creating the DB . Modifying the database from appsettings.json and ue the NutPackage Manager Console for adding the migration (AddDefaultIdentityMigration).
+
+Date: 1-11-2023
+Time: 6:52pm
+Adding the MVCcontroller(CategoryController.cs) in Areas/Admin/Controller .Modifying the code in IUnitOfWork. Adding the new folder in Areas/View through Add Razor View with Category. 
+Copying the given file assignment 2 (Viewtxt) and paste into Category/Index.cshtml .Run the application. In _Layout.cshtml changing the privacy intoo category and changing into the dropdown menu .
+Modifying the font category/Index .Delete . And Push the code .
+Time: 7:11pm
+
+Date: 1-11-2023
+Time: 7:15pm
+In wwwroot/js and creating new js(Category.js) adding the javascript from the assignment 2 folder.In index.cshtml add the @section call.Run the application. Add the RazorView pf Upsert.cshtml in category.
+Adding the coding as per given class , columns and all.Creating the partial view for edit and back View/Shared add partialView and enter the _CreateAndBackToListButton  and click the partial view and okay.
+Now it that file adding the class  making the button of Submit and Index. Adding the asp-action.Following the method creating the _EditAndBackToListButton and adding the @model statement .
+Push into the GitHub.
+Time: 8:27pm
+
+Date:6-11-2023
+Time: 6:30pm
+In  Upsert.cshtml adding the asp-action.Modifying the @title and run the application again.Also add the @section call script in Upsert.cshtml.adding the POST method in the CategoryController.cs.
+Save method added. removing the _DbSaveChanges method and also moving the UnitOfWork_Save . Now run the application checked the project its running properly.Adding the API in categorycontroller.cs .
+Implementing the category.js of HTTP Delete.Adding the delete functionality in category.js .Follow the code given . Run the application is working as per rquirement . Pushing the code into GitHub.
+Time: 7:02pm
+
+
+
+
+
