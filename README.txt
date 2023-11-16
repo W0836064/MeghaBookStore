@@ -142,8 +142,13 @@ Assignment 3
 Date:15-11-2023
 Time: 6:28pm
 
-
+3.1 CoverType CRUD 
  AddCoverTypeToDb (adding the migration)
 Time:7:03pm
 I completed the covertype and pushing the code to github .
 
+3.2 Product CRUD
+Date:16-11-2023
+Time: 3:04pm
+(add-migration)addProductToDb
+(add-migration)addValidationToProduct

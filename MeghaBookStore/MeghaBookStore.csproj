@@ -25,4 +25,8 @@
     <ProjectReference Include="..\MeghaBooks.Utility\MeghaBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Views\Product\" />
+  </ItemGroup>
+
 </Project>
