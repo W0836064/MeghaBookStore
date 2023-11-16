@@ -1,24 +1,30 @@
 ﻿using MeghaBooks.DataAccess.Repository.IRepository;
-using MeghaBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using MeghaBookStore.DataAccess.Data;
+
 
 namespace MeghaBooks.DataAccess.Repository
 {
-    public class UnitOfWork : IUnitOfWork  // make the method public to access the class
+    public class UnitOfWork : IUnitOfWork
     {
-        private readonly ApplicationDbContext _db;  // the using statement 
+        private readonly ApplicationDbContext _db;
 
-        public UnitOfWork(ApplicationDbContext db)  // constructor  to use DI and inject to the repository
+        public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Category = new CategoryRepository(_db);
+            CoverType = new CoverTypeRepository(_db);
+            
             SP_Call = new SP_Call(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
-
+        public ICoverTypeRepository CoverType { get; private set; }
+      
         public ISP_Call SP_Call { get; private set; }
 
         public void Dispose()
@@ -26,7 +32,7 @@ namespace MeghaBooks.DataAccess.Repository
             _db.Dispose();
         }
 
-        public void Save()  //all chnages will be saved when the Save method is call at the 'parent' level
+        public void Save()
         {
             _db.SaveChanges();
         }

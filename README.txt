@@ -1,3 +1,7 @@
+--------------------------
+Assignment 1
+---------------------------
+
 Date: 27-10-2023
 Time: 1:17pm
 
@@ -83,7 +87,9 @@ Date:28-10-2023
 Time: 3:12pm
 Completed 
 
+-------------------------
 Assignment Part 2
+--------------------------
 
 Date:31-10-2023
 Time: 6:12pm
@@ -129,7 +135,15 @@ Save method added. removing the _DbSaveChanges method and also moving the UnitOf
 Implementing the category.js of HTTP Delete.Adding the delete functionality in category.js .Follow the code given . Run the application is working as per rquirement . Pushing the code into GitHub.
 Time: 7:02pm
 
+----------------------------
+Assignment 3
+----------------------------
+
+Date:15-11-2023
+Time: 6:28pm
 
 
-
+ AddCoverTypeToDb (adding the migration)
+Time:7:03pm
+I completed the covertype and pushing the code to github .
 
