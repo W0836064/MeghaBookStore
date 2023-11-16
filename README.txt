@@ -1,3 +1,9 @@
+Name: Megha Panchani
+Project: Assignment2 Part 3
+Date:15-11-2023
+Updated Time:6:28pm
+
+
 --------------------------
 Assignment 1
 ---------------------------
@@ -136,19 +142,61 @@ Implementing the category.js of HTTP Delete.Adding the delete functionality in c
 Time: 7:02pm
 
 ----------------------------
-Assignment 3
+Assignment Part 3
 ----------------------------
+
+******************
+Section 1
+******************
 
 Date:15-11-2023
 Time: 6:28pm
 
-3.1 CoverType CRUD 
- AddCoverTypeToDb (adding the migration)
+Starting the 3.1 CoverType CRUD
+I have start my creating the CoverType.cs in Modal folder and doing same method mention in the other modal class.Adding the CoverTypeRepository and ICoverTypeRepository in Repository and IRepository and 
+following the same method we have done in previous part. Now adding the CoverType in UnitWork and IUnitwork.And its time to create the migration and database.Creating the migration from tool and 
+select MeghaBooks.DataAccess and adding the statement in PM Console - add migration AddCoverTypeToDb and upadten the Database with code update-database.
+Performing  the CRUD operation for CoverType adding the NavBar, Action Method in Layout.html. Adding the Product Controller in Area/Admin/Controller.
+Creating the Index and Upsert after creating the folder(CoverType)in the View.And copying the code from the CategoryController and pasting in the CoverTypeController. And I run the application and i get the error it was only showing the 
+LOading in CoverType and the create was not working and taking back to the Repository.cs and it was solved afetr adding again the migration (add migration CoverTypeToDb-2).I completed the covertype and pushing the code to github .
 Time:7:03pm
-I completed the covertype and pushing the code to github .
 
-3.2 Product CRUD
+
+
 Date:16-11-2023
 Time: 3:04pm
-(add-migration)addProductToDb
-(add-migration)addValidationToProduct
+
+Starting 3.2 Product CRUD(1)
+Adding the new class Product.cs in the Model Folder and adding the code given in file. Also, adding the product in the ApplicationDbContext.cs file. Adding the migration from the NutPackage and written the PM Console 
+command - add-migration addProductToDb and updating database using update-database command. By mistake, i add the migration (addProductToDb-1) and showing the Product table in the SQL Server Object Explorer. And updating the Product.cs and now again  adding the new migration (addValidationToProduct) and update the database.
+Now creating the IProductRepository interface and ProductRepository class in IRepository and Repository class. And also adding the product statement in IunitWork and UnitWork. Puch the code into GitHub.
+Time:3:41pm
+
+
+******************
+ Section2
+******************
+
+Date:16-11-2023
+Time:3:44pm
+
+Starting 3.2 Product CRUD(2)
+Now Creating the ProductController in Area/Admin/Controller.Applying the same method provide in the file. By interface, installing the Microsoft.AspNetCore.Hoasting.Creating the ViewModel(ProductVM) in in model folder/Views.
+Same, Installing the Microsoft.AspNetCore.Mvc.ViewFeatures package clicking the SelectLisItem doing the interface.Modifying the ProductController.cs iActionResult and UpsertCall and including the Microsofet.AspNetCore.Mvc.Rendering .
+Commenting the UpsertPost . Including the category and covertype in API Call.Adding the index.cshtml clicking the index in productController.cs .Copy/paste the category.js into product.js and modifying the some statement.
+Creating the product.js and now adding the link code in the _Layout.cshtml.  Run the Application.
+Time: 4:10pm
+
+********************
+Section3 
+********************
+
+Date:16-11-2023
+Time:4:15pm
+
+Starting 3.2 Product CRUD(3)
+Creating the Upsert in Area/Admin/Views/Product and copying the code from the CoverType and pasting into Product and now as per the instruction creating the in tiny.cloud by using the school id. and using the API key
+Using the API key <script src="https://cdn.tiny.cloud/1/ux02gk5hno4omj9v6ax7akm331jeigeue38nulwiudu0jg2x/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script> And adding the Sweet alert Msg . Run the Application and
+the create new prouct table was displying in browser.Creating  the new folder and subfolder for images/products . In ProductController.cs  uncomment the Upsert code.And run the apllication and genrate the error while creating the product table
+in covertype the option was showing of category so, error was solved by , Product/Upsert - modifying the statement category into covertype and update the database again Run the appliaction.push the code.
+Time:6:09pm
