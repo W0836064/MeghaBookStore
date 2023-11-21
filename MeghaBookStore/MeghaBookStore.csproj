@@ -25,8 +25,4 @@
     <ProjectReference Include="..\MeghaBooks.Utility\MeghaBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\images\products\" />
-  </ItemGroup>
-
 </Project>
